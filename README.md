@@ -1,24 +1,24 @@
-# 🌱 Greenhouse Automation System with Blynk IoT
+# Greenhouse Automation System with Blynk IoT
 
 An intelligent greenhouse monitoring and control system built on ESP32. Automatically manages ventilation and irrigation based on environmental conditions, with remote manual override via Blynk mobile app.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🌡️ **Temperature Monitoring** | Real-time DHT22 sensor readings |
-| 💧 **Humidity Tracking** | Ambient humidity detection |
-| 🌍 **Soil Moisture Sensing** | Automated irrigation triggers |
-| 🪟 **Smart Ventilation** | Servo-controlled window opens at high temp/humidity |
-| 🚿 **Auto Irrigation** | Water pump activates when soil is dry |
-| 📱 **Remote Control** | Manual override via Blynk app switches |
-| 📟 **Local Display** | 16x2 I2C LCD for on-site monitoring |
+| **Temperature Monitoring** | Real-time DHT22 sensor readings |
+| **Humidity Tracking** | Ambient humidity detection |
+| **Soil Moisture Sensing** | Automated irrigation triggers |
+| **Smart Ventilation** | Servo-controlled window opens at high temp/humidity |
+| **Auto Irrigation** | Water pump activates when soil is dry |
+| **Remote Control** | Manual override via Blynk app switches |
+| **Local Display** | 16x2 I2C LCD for on-site monitoring |
 
 ---
 
-## 🔧 Hardware Components
+## Hardware Components
 
 | Component | Specification | Purpose |
 |-----------|-------------|---------|
@@ -31,7 +31,7 @@ An intelligent greenhouse monitoring and control system built on ESP32. Automati
 
 ---
 
-## 📍 Pin Configuration
+## Pin Configuration
 
 | GPIO | Component | Notes |
 |------|-----------|-------|
@@ -76,6 +76,6 @@ maxMoistureThreshold = 60.0%    // Pump stops above this
 | V4  | Water Pump     | Integer | 0-1      | Input (App → Device) |
 
 ### Mobile Widgets
--3 Gauges → Temperature, Humidity, Soil Moisture
--2 Switches → Window Control, Water Pump Control
+- 3 Gauges → Temperature, Humidity, Soil Moisture
+- 2 Switches → Window Control, Water Pump Control
 ![Blynk Dashboard](./blynkdashboard.png)
