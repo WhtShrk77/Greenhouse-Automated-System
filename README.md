@@ -43,6 +43,8 @@ An intelligent greenhouse monitoring and control system built on ESP32. Automati
 
 ---
 ## Circuit Diagram
+
+
 ![Circuit diagram](./circuit.png)
 
 ## ⚙️ Automation Logic
@@ -78,4 +80,9 @@ maxMoistureThreshold = 60.0%    // Pump stops above this
 ### Mobile Widgets
 - 3 Gauges → Temperature, Humidity, Soil Moisture
 - 2 Switches → Window Control, Water Pump Control
+
 ![Blynk Dashboard](./blynkdashboard.png)
+
+## Simulation
+
+[View on Wokwi](https://wokwi.com/projects/406269260322392065)
